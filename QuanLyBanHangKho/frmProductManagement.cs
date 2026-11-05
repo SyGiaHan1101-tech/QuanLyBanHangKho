@@ -20,12 +20,18 @@ namespace QuanLyBanHangKho
             LoadDanhMuc();
             LoadNhaCungCap();
             LoadSanPham();
+            LoadLocDanhMuc();
         }
 
         private void frmProductManagement_Load(object sender, EventArgs e)
         {
         }
-
+        private void LoadLocDanhMuc()
+        {
+            cboLocDanhMuc.DataSource = db.GetTable<DanhMuc>().ToList();
+            cboLocDanhMuc.DisplayMember = "TenDanhMuc";
+            cboLocDanhMuc.ValueMember = "MaDanhMuc";
+        }
         private void LoadSanPham()
         {
             dgvSanPham.DataSource = db.GetTable<SanPham>()
@@ -293,5 +299,21 @@ namespace QuanLyBanHangKho
 
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void btnInDanhSach_Click(object sender, EventArgs e)
+        {
+            if (cboLocDanhMuc.SelectedValue == null)
+            {
+                MessageBox.Show("Vui lòng chọn danh mục cần in!");
+                return;
+            }
+
+            int maDanhMuc = Convert.ToInt32(cboLocDanhMuc.SelectedValue);
+            string tenDM = cboLocDanhMuc.Text;
+
+            frmInventoryReport f = new frmInventoryReport(maDanhMuc, tenDM);
+            f.ShowDialog();
+        }
+   
     }
 }

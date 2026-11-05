@@ -75,7 +75,7 @@ namespace QuanLyBanHangKho
                 MessageBox.Show("Vui lòng chọn nhà cung cấp!");
                 return;
             }
-            
+
             if (ThongTinDangNhap.MaNguoiDungDangNhap <= 0)
             {
                 MessageBox.Show("Vui lòng đăng nhập trước khi tạo phiếu nhập!");

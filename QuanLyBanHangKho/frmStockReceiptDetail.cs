@@ -385,5 +385,10 @@ namespace QuanLyBanHangKho
 
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void lblTieuDe_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

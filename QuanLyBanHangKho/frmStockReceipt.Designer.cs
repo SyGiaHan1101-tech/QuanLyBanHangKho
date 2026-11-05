@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblTieuDe = new System.Windows.Forms.Label();
             this.lblMaPhieuNhap = new System.Windows.Forms.Label();
             this.lblNhaCungCap = new System.Windows.Forms.Label();
@@ -61,10 +61,10 @@
             // 
             this.lblTieuDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTieuDe.AutoSize = true;
-            this.lblTieuDe.Font = new System.Drawing.Font("Times New Roman", 30F);
-            this.lblTieuDe.Location = new System.Drawing.Point(300, 15);
+            this.lblTieuDe.Font = new System.Drawing.Font("Times New Roman", 30F, System.Drawing.FontStyle.Bold);
+            this.lblTieuDe.Location = new System.Drawing.Point(624, 22);
             this.lblTieuDe.Name = "lblTieuDe";
-            this.lblTieuDe.Size = new System.Drawing.Size(556, 57);
+            this.lblTieuDe.Size = new System.Drawing.Size(578, 57);
             this.lblTieuDe.TabIndex = 0;
             this.lblTieuDe.Text = "QUẢN LÝ PHIẾU NHẬP";
             this.lblTieuDe.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -73,7 +73,7 @@
             // 
             this.lblMaPhieuNhap.AutoSize = true;
             this.lblMaPhieuNhap.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.lblMaPhieuNhap.Location = new System.Drawing.Point(80, 120);
+            this.lblMaPhieuNhap.Location = new System.Drawing.Point(214, 123);
             this.lblMaPhieuNhap.Name = "lblMaPhieuNhap";
             this.lblMaPhieuNhap.Size = new System.Drawing.Size(276, 48);
             this.lblMaPhieuNhap.TabIndex = 1;
@@ -84,7 +84,7 @@
             // 
             this.lblNhaCungCap.AutoSize = true;
             this.lblNhaCungCap.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.lblNhaCungCap.Location = new System.Drawing.Point(80, 190);
+            this.lblNhaCungCap.Location = new System.Drawing.Point(214, 203);
             this.lblNhaCungCap.Name = "lblNhaCungCap";
             this.lblNhaCungCap.Size = new System.Drawing.Size(253, 48);
             this.lblNhaCungCap.TabIndex = 2;
@@ -95,7 +95,7 @@
             // 
             this.lblNguoiLap.AutoSize = true;
             this.lblNguoiLap.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.lblNguoiLap.Location = new System.Drawing.Point(80, 330);
+            this.lblNguoiLap.Location = new System.Drawing.Point(214, 363);
             this.lblNguoiLap.Name = "lblNguoiLap";
             this.lblNguoiLap.Size = new System.Drawing.Size(296, 48);
             this.lblNguoiLap.TabIndex = 3;
@@ -106,7 +106,7 @@
             // 
             this.lblNgayNhap.AutoSize = true;
             this.lblNgayNhap.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.lblNgayNhap.Location = new System.Drawing.Point(80, 260);
+            this.lblNgayNhap.Location = new System.Drawing.Point(214, 283);
             this.lblNgayNhap.Name = "lblNgayNhap";
             this.lblNgayNhap.Size = new System.Drawing.Size(204, 48);
             this.lblNgayNhap.TabIndex = 4;
@@ -117,7 +117,7 @@
             // 
             this.lblTongTien.AutoSize = true;
             this.lblTongTien.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.lblTongTien.Location = new System.Drawing.Point(80, 400);
+            this.lblTongTien.Location = new System.Drawing.Point(214, 443);
             this.lblTongTien.Name = "lblTongTien";
             this.lblTongTien.Size = new System.Drawing.Size(184, 48);
             this.lblTongTien.TabIndex = 5;
@@ -127,31 +127,31 @@
             // txtMaPhieuNhap
             // 
             this.txtMaPhieuNhap.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.txtMaPhieuNhap.Location = new System.Drawing.Point(500, 120);
+            this.txtMaPhieuNhap.Location = new System.Drawing.Point(634, 123);
             this.txtMaPhieuNhap.Multiline = true;
             this.txtMaPhieuNhap.Name = "txtMaPhieuNhap";
             this.txtMaPhieuNhap.ReadOnly = true;
-            this.txtMaPhieuNhap.Size = new System.Drawing.Size(400, 55);
+            this.txtMaPhieuNhap.Size = new System.Drawing.Size(450, 55);
             this.txtMaPhieuNhap.TabIndex = 6;
             // 
             // txtNguoiLap
             // 
             this.txtNguoiLap.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.txtNguoiLap.Location = new System.Drawing.Point(500, 330);
+            this.txtNguoiLap.Location = new System.Drawing.Point(634, 363);
             this.txtNguoiLap.Multiline = true;
             this.txtNguoiLap.Name = "txtNguoiLap";
             this.txtNguoiLap.ReadOnly = true;
-            this.txtNguoiLap.Size = new System.Drawing.Size(400, 55);
+            this.txtNguoiLap.Size = new System.Drawing.Size(450, 55);
             this.txtNguoiLap.TabIndex = 7;
             // 
             // txtTongTien
             // 
             this.txtTongTien.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.txtTongTien.Location = new System.Drawing.Point(500, 400);
+            this.txtTongTien.Location = new System.Drawing.Point(634, 443);
             this.txtTongTien.Multiline = true;
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.ReadOnly = true;
-            this.txtTongTien.Size = new System.Drawing.Size(400, 55);
+            this.txtTongTien.Size = new System.Drawing.Size(450, 55);
             this.txtTongTien.TabIndex = 8;
             // 
             // cboNhaCungCap
@@ -159,9 +159,9 @@
             this.cboNhaCungCap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboNhaCungCap.Font = new System.Drawing.Font("Times New Roman", 25F);
             this.cboNhaCungCap.FormattingEnabled = true;
-            this.cboNhaCungCap.Location = new System.Drawing.Point(500, 190);
+            this.cboNhaCungCap.Location = new System.Drawing.Point(634, 203);
             this.cboNhaCungCap.Name = "cboNhaCungCap";
-            this.cboNhaCungCap.Size = new System.Drawing.Size(400, 56);
+            this.cboNhaCungCap.Size = new System.Drawing.Size(450, 56);
             this.cboNhaCungCap.TabIndex = 9;
             // 
             // dtpNgayNhap
@@ -169,17 +169,17 @@
             this.dtpNgayNhap.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayNhap.Font = new System.Drawing.Font("Times New Roman", 25F);
             this.dtpNgayNhap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayNhap.Location = new System.Drawing.Point(500, 260);
+            this.dtpNgayNhap.Location = new System.Drawing.Point(634, 283);
             this.dtpNgayNhap.Name = "dtpNgayNhap";
-            this.dtpNgayNhap.Size = new System.Drawing.Size(400, 55);
+            this.dtpNgayNhap.Size = new System.Drawing.Size(450, 55);
             this.dtpNgayNhap.TabIndex = 10;
             // 
             // btnThem
             // 
             this.btnThem.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.btnThem.Location = new System.Drawing.Point(1050, 120);
+            this.btnThem.Location = new System.Drawing.Point(1276, 224);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(180, 65);
+            this.btnThem.Size = new System.Drawing.Size(250, 65);
             this.btnThem.TabIndex = 11;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -188,9 +188,9 @@
             // btnXoa
             // 
             this.btnXoa.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.btnXoa.Location = new System.Drawing.Point(1050, 210);
+            this.btnXoa.Location = new System.Drawing.Point(1276, 314);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(180, 65);
+            this.btnXoa.Size = new System.Drawing.Size(250, 65);
             this.btnXoa.TabIndex = 12;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -199,9 +199,9 @@
             // btnSua
             // 
             this.btnSua.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.btnSua.Location = new System.Drawing.Point(1270, 120);
+            this.btnSua.Location = new System.Drawing.Point(1546, 224);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(180, 65);
+            this.btnSua.Size = new System.Drawing.Size(250, 65);
             this.btnSua.TabIndex = 13;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -210,9 +210,9 @@
             // btnLamMoi
             // 
             this.btnLamMoi.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.btnLamMoi.Location = new System.Drawing.Point(1270, 210);
+            this.btnLamMoi.Location = new System.Drawing.Point(1546, 314);
             this.btnLamMoi.Name = "btnLamMoi";
-            this.btnLamMoi.Size = new System.Drawing.Size(180, 65);
+            this.btnLamMoi.Size = new System.Drawing.Size(250, 65);
             this.btnLamMoi.TabIndex = 14;
             this.btnLamMoi.Text = "Làm mới";
             this.btnLamMoi.UseVisualStyleBackColor = true;
@@ -221,9 +221,9 @@
             // btnTimKiem
             // 
             this.btnTimKiem.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.btnTimKiem.Location = new System.Drawing.Point(1050, 300);
+            this.btnTimKiem.Location = new System.Drawing.Point(1276, 404);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(180, 65);
+            this.btnTimKiem.Size = new System.Drawing.Size(520, 65);
             this.btnTimKiem.TabIndex = 15;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
@@ -233,7 +233,7 @@
             // 
             this.lblTimKiem.AutoSize = true;
             this.lblTimKiem.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.lblTimKiem.Location = new System.Drawing.Point(80, 470);
+            this.lblTimKiem.Location = new System.Drawing.Point(214, 523);
             this.lblTimKiem.Name = "lblTimKiem";
             this.lblTimKiem.Size = new System.Drawing.Size(354, 48);
             this.lblTimKiem.TabIndex = 16;
@@ -243,23 +243,23 @@
             // txtTimKiem
             // 
             this.txtTimKiem.Font = new System.Drawing.Font("Times New Roman", 25F);
-            this.txtTimKiem.Location = new System.Drawing.Point(500, 470);
+            this.txtTimKiem.Location = new System.Drawing.Point(634, 523);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(400, 55);
+            this.txtTimKiem.Size = new System.Drawing.Size(450, 55);
             this.txtTimKiem.TabIndex = 17;
             // 
             // dgvPhieuNhap
             // 
             this.dgvPhieuNhap.AllowUserToAddRows = false;
             this.dgvPhieuNhap.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightBlue;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 25F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPhieuNhap.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.LightBlue;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Times New Roman", 25F);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPhieuNhap.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.dgvPhieuNhap.ColumnHeadersHeight = 60;
             this.dgvPhieuNhap.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaPhieuNhap,
@@ -267,23 +267,23 @@
             this.TenNguoiLap,
             this.NgayNhap,
             this.TongTien});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvPhieuNhap.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvPhieuNhap.Location = new System.Drawing.Point(30, 650);
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Times New Roman", 25F);
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPhieuNhap.DefaultCellStyle = dataGridViewCellStyle16;
+            this.dgvPhieuNhap.Location = new System.Drawing.Point(55, 644);
             this.dgvPhieuNhap.MultiSelect = false;
             this.dgvPhieuNhap.Name = "dgvPhieuNhap";
             this.dgvPhieuNhap.ReadOnly = true;
             this.dgvPhieuNhap.RowHeadersVisible = false;
             this.dgvPhieuNhap.RowHeadersWidth = 51;
-            this.dgvPhieuNhap.RowTemplate.Height = 27;
+            this.dgvPhieuNhap.RowTemplate.Height = 45;
             this.dgvPhieuNhap.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPhieuNhap.Size = new System.Drawing.Size(1900, 300);
+            this.dgvPhieuNhap.Size = new System.Drawing.Size(1940, 300);
             this.dgvPhieuNhap.TabIndex = 18;
             this.dgvPhieuNhap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuNhap_CellClick);
             // 
@@ -341,7 +341,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 603);
+            this.ClientSize = new System.Drawing.Size(1817, 967);
             this.Controls.Add(this.dgvPhieuNhap);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.lblTimKiem);

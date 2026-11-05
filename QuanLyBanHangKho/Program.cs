@@ -16,7 +16,7 @@ namespace QuanLyBanHangKho
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmStockReceipt());
+            Application.Run(new frmStockReceiptDetail());
         }
     }
 }
@@ -25,3 +25,4 @@ namespace QuanLyBanHangKho
 // frmProductManagement - Quản lý sản phẩm
 // frmStockReceipt - Quản lý phiếu nhập
 // frmStockReceiptDetail - Quản lý chi tiết phiếu nhập
+// frmInventoryReport - Báo cáo tồn kho
